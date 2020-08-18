@@ -11,6 +11,8 @@ See below for frequency response of the two filters when applied to a chirp from
 * The IIR filter has a more traditional low pass roll off.
 * The filters perform differently, but not different enough to warrant all that typing! Indeed, the IIR filter has a predictable monotonic roll-off, so I'm now relegating the moving window average to the "filters I used to know" pile.
 
-![IIR decay 0.7, moving window size 5, moving window in front](pic/Filter comparison. Blue raw chirp, orange single pole IIR with decay 0.7, green sliding average with 5 sample window.png)
-![IIR decay 0.7, moving window size 5, IIR filter in front](pic/Filter comparison. Blue raw chirp, orange sliding average with 5 sample window, green single pole IIR with decay 0.7.png)
-![IIR decay 0.9, moving window size 10](pic/Filter comparison. Blue raw chirp, orange sliding average with 10 sample window, green single pole IIR with decay 0.9.png)
+![IIR decay 0.7, moving window size 5, moving window in front](pic/Filter%20comparison.%20Blue%20raw%20chirp,%20orange%20single%20pole%20IIR%20with%20decay%200.7,%20green%20sliding%20average%20with%205%20sample%20window.png)
+
+![IIR decay 0.7, moving window size 5, IIR filter in front](pic/Filter%20comparison.%20Blue%20raw%20chirp,%20orange%20sliding%20average%20with%205%20sample%20window,%20green%20single%20pole%20IIR%20with%20decay%200.7.png)
+
+![IIR decay 0.9, moving window size 10](pic/Filter%20comparison.%20Blue%20raw%20chirp,%20orange%20sliding%20average%20with%2010%20sample%20window,%20green%20single%20pole%20IIR%20with%20decay%200.9.png)
